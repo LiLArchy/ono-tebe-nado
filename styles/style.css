@@ -1,1 +1,81 @@
-/* место для вашего кода */
+.header {
+  position: relative;
+  display: grid;
+  align-items: center;
+  gap: 36px;
+  width: 1052px;
+  height: 105px;
+  grid-template-columns: 392px 148px 241px;
+  margin: 92px 24px 96px;
+  padding-left: 27px;
+  padding-right: 26px;
+  border: 1px solid black;
+}
+
+.header_menu {
+  width: 392px;
+}
+
+.header__links-list {
+  display: flex;
+  gap: 13.48px;
+}
+
+.header__links-list-item_active {
+  list-style: none;
+}
+
+.header__links-list-item {
+  list-style: circle;
+  list-style-position: inside;
+  padding-left: 12px;
+}
+
+.header__link {
+  text-decoration: underline;
+}
+
+.header__link_active {
+  text-decoration: none;
+}
+
+.header__logo {
+  display: flex;
+  align-items: center;
+  height: 105px;
+}
+
+.header__logo-image {
+  width: 124.05;
+  height: 94.84px;
+}
+
+.address {
+  display: flex;
+  flex-direction: column;
+  width: 241px;
+}
+
+.header__address {
+  position: absolute;
+  right: 0;
+}
+
+.cover {
+  position: relative;
+  z-index: 0;
+  height: 757px;
+  background-image: url(../images/cover.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.overlay {
+  position: absolute;
+  opacity: 60%;
+  inset: 0;
+  z-index: 1;
+  height: 757px;
+  background-color: #000000;
+}
