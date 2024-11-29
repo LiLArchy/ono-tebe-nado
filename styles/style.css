@@ -9,16 +9,17 @@
   margin: 92px 24px 96px;
   padding-left: 27px;
   padding-right: 26px;
-  border: 1px solid black;
 }
 
 .header_menu {
   width: 392px;
+  margin-top: 4px;
+  font-size: 18px;
 }
 
 .header__links-list {
   display: flex;
-  gap: 13.48px;
+  gap: 30px;
 }
 
 .header__links-list-item_active {
@@ -27,12 +28,15 @@
 
 .header__links-list-item {
   list-style: circle;
-  list-style-position: inside;
   padding-left: 12px;
 }
 
+.header__links-list-item .header__link {
+  margin-left: -8px;
+}
+
 .header__link {
-  text-decoration: underline;
+  border-bottom: 1px solid black;
 }
 
 .header__link_active {
@@ -46,19 +50,27 @@
 }
 
 .header__logo-image {
-  width: 124.05;
-  height: 94.84px;
+  height: 105px;
 }
 
 .address {
   display: flex;
   flex-direction: column;
   width: 241px;
+  font-size: 18px;
+  line-height: 1.35;
+}
+
+.address a {
+  display: block;
+  width: 135px;
+  text-decoration: none;
+  border-bottom: 1px solid black;
 }
 
 .header__address {
   position: absolute;
-  right: 0;
+  right: 25px;
 }
 
 .cover {
@@ -78,4 +90,99 @@
   z-index: 1;
   height: 757px;
   background-color: #000000;
+}
+
+.cover-title {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  z-index: 2;
+  font-size: 100px;
+  text-transform: uppercase;
+  line-height: 1.15;
+  font-weight: 700px;
+  color: rgba(255, 255, 255, 1);
+  inset: 165px 50px 0 50px;
+  width: 1000px;
+  height: 355px;
+}
+
+.aligned-text {
+  display: flex;
+  margin-bottom: 12px;
+}
+
+.aligned-text_start {
+  letter-spacing: 30px;
+}
+
+.aligned-text_end {
+  display: block;
+  margin-left: 30px;
+}
+
+.aligned-text_center {
+  display: flex;
+  margin-left: 285px;
+  height: 100px;
+  margin-bottom: 20px;
+}
+
+.aligned-text_center-start {
+  letter-spacing: 30px;
+}
+
+.aligned-text_center-end {
+  display: block;
+  margin-left: 30px;
+}
+
+.aligned-text_right {
+  display: flex;
+  justify-content: right;
+  height: 100px;
+  padding-right: 0;
+}
+
+.aligned-text_right-end {
+  letter-spacing: 30px;
+}
+
+.aligned-text_right-start {
+  display: block;
+  margin-right: 60px;
+}
+
+.cover__description {
+  position: absolute;
+  z-index: 2;
+  inset: 655px 50px 51px 78px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: rgba(255, 255, 255, 1);
+}
+
+.cover__description-title {
+  display: block;
+  height: 28px;
+  font-size: 22px;
+  font-family: "Raleway" serif;
+  font-weight: 400;
+  word-spacing: 20px;
+  line-height: 1.27;
+  text-transform: uppercase;
+}
+
+.bet-button {
+  width: 256px;
+  height: 51px;
+  font-size: 22px;
+  text-transform: uppercase;
+  font-weight: 500;
+  line-height: 1.17;
+  text-align: center;
+  color: rgba(255, 255, 255, 1);
+  border: 1px solid rgba(255, 255, 255, 1);
+  background-color: transparent;
 }
