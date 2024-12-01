@@ -103,7 +103,7 @@
   font-size: 100px;
   text-transform: uppercase;
   line-height: 1.15;
-  font-weight: 700px;
+  font-weight: 700;
   color: rgba(255, 255, 255, 1);
   inset: 165px 50px 0 50px;
   width: 1000px;
@@ -170,7 +170,7 @@
   display: block;
   height: 28px;
   font-size: 22px;
-  font-family: "Raleway" serif;
+  font-family: Raleway serif;
   font-weight: 400;
   word-spacing: 20px;
   line-height: 1.27;
@@ -198,7 +198,7 @@
   display: grid;
   gap: 0 25px;
   margin: 0 24px 0;
-  grid-template-columns: repeat(3, 334);
+  grid-template-columns: repeat(3, 334px);
   grid-template-rows: 74px 563px 55px;
   grid-template-areas:
     "lots__heading lots__heading lots__heading"
@@ -298,7 +298,7 @@
 
 .about {
   display: flex;
-  flex-basis: 2;
+  flex-basis: 2px;
   margin: 146px 24px 0;
   width: 1052px;
   height: 595px;
