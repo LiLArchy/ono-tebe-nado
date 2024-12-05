@@ -75,7 +75,7 @@
   display: flex;
   flex-direction: column;
   z-index: 0;
-  margin-bottom: 179px;
+  margin-bottom: 177px;
   background-image: url(../images/cover.jpg);
   background-size: cover;
   background-position: center;
@@ -120,8 +120,7 @@
 .aligned-text_center {
   display: flex;
   justify-content: center;
-  height: 100px;
-  margin-bottom: 20px;
+  margin-bottom: 5px;
 }
 
 .aligned-text_right {
@@ -141,7 +140,6 @@
 
 .cover__description-title {
   display: block;
-  height: 28px;
   margin-bottom: 10px;
   font-size: 22px;
   font-weight: 400;
@@ -173,13 +171,12 @@
   display: flex;
   flex-direction: column;
   gap: 0 25px;
-  margin: 0 24px 145px;
+  margin: 0 24px 147px;
 }
 
 .lots__heading {
-  margin: 0 40px 0;
+  margin: 0 40px 27px;
   font-size: 40px;
-  height: 74px;
   text-transform: uppercase;
   font-weight: 700;
 }
@@ -257,7 +254,7 @@
 .about {
   display: flex;
   flex-basis: 2px;
-  margin: 130px auto 160px;
+  margin: 0 auto;
   width: 1052px;
 }
 
@@ -311,13 +308,16 @@
   margin-bottom: 76px;
 }
 
-.about__text-start {
+.about__text {
   display: block;
-  width: 688px;
   height: 100%;
   font-size: 20px;
   font-weight: 400;
   line-height: 24px;
+}
+
+.about__text-start {
+  width: 688px;
   margin-top: 24px;
   letter-spacing: 0.01em;
   text-decoration-skip-ink: none;
@@ -348,13 +348,8 @@
 }
 
 .about__text-end {
-  display: block;
   margin-top: 24px;
   width: 693px;
-  height: 100%;
-  font-size: 20px;
-  font-weight: 400;
-  line-height: 24px;
 }
 
 .about__text-end_letter-spacing-em {
@@ -369,9 +364,9 @@
   display: flex;
   justify-content: space-between;
   align-items: start;
+  margin-top: 180px;
   width: 100%;
-  padding: 20px 50px;
-  margin: auto;
+  padding: 0 50px;
 }
 
 .footer__menu {
